@@ -1,0 +1,87 @@
+@import url( "https: //fonts.googleapis.com/css2?family= família= Big+Ombros+Display:wght@700 & display=swap");
+
+
+body{
+    background-color: hsl(0,0%,95%);
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+.container {
+max-width: 960px;
+margin: 0 auto;
+
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+
+    
+}
+
+
+.boxSedans{
+    background: hsl(31, 77%, 52%);
+    
+}
+
+
+.boxSuvs{
+    background:hsl(184, 100%, 22%);
+    
+}
+.boxLuxury{
+    background:hsl(179, 100%, 13%);
+    
+}
+
+.box{
+    padding: 70px;
+    border-radius: 6px
+    
+}
+
+
+.box h2{
+    text-align: left;
+    color: #fff;
+    font-family: 'Big Shoulders Display', coursive;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    text-align: left;
+    align-items: center;
+ 
+}
+
+.box a {
+text-decoration: none;
+background-color:hsla(0, 0%, 95%) ;
+padding: 13px 27px;
+border-radius: 26px;
+display: inline-block;
+border: 2px solid hsla(0, 0%, 95%)  ;
+
+}
+
+.box .boxSedans a {
+    background: hsl(31, 77%, 52%);
+}
+
+.box .boxSuvs a {
+    background:hsl(184, 100%, 22%);
+    
+}
+.box .boxLuxury a {
+    background:hsl(179, 100%, 13%);
+    
+}
